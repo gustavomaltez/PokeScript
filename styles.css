@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f1c40f;
+    display: flex;
+    justify-content: center;
+}
+
+#dev {
+    padding: 10px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    transition: font-size 300ms;
+}
+#dev a,p{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+#dev:hover {
+    font-size: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+main h1{
+    font-family: cursive;
+    font-size: 40px;
+    margin: 2vh;
+    color: #FFF;
+    text-shadow: 0 2px 2px black;
+}
+
+main ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+main ul li{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E3138;
+    padding: 0px 20px;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+main ul li:hover{
+    border: 3px solid #F1C40F;
+    box-shadow: 0 0 20px 2px black;
+    transform: scale(1.1);
+    margin: 20px;
+}
+
+main ul li .xp{
+    padding-top: 10px;
+    color: #2ecc71;
+}
+
+main ul li img{
+    width: 200px;
+}
+
+main ul li h1{
+    font-size: 30px;
+    color: #ecf0f1;
+    text-transform: uppercase;
+}
+
+main ul li div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul li span{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 400ms;
+}
+
+main ul li span:hover{
+    transform: scale(1.1);
+}
+
+main ul li p{
+    color: #FFF;
+    font-weight: 900;
+    text-shadow: 0 1px 2px black;
+    text-transform: uppercase;
+}
+
+/* POKEMON TYPES */
+.normal{
+    background: #B8B8AA;
+}
+.fighting{
+    background: #A55444;
+}
+.flying{
+    background: #79A4FF;
+}
+.poison{
+    background: #AB5EA2;
+}
+.ground{
+    background: #EBCA57;
+}
+.rock{
+    background: #BECC26;
+}
+.bug{
+    background: #C2D21F;
+}
+.ghost{
+    background: #7773CE;
+}
+.steel{
+    background: #C1BFD6;
+}
+.fire{
+    background: #ED5145;
+}
+.water{
+    background: #83C3FF;
+}
+.grass{
+    background: #8DD851;
+}
+.electric{
+    background: #FDE43E;
+}
+.psychic{
+    background: #F060AB;
+}
+.ice{
+    background: #96F1FF;
+}
+.dragon{
+    background: #8875FF;
+}
+.fairy{
+    background: #F9AEFF;
+}
+
+
+
+@media (max-width: 400px){
+    main ul li:hover{
+        margin: 5vh 0;
+    }
+}
