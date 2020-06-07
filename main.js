@@ -1,4 +1,3 @@
-
 const pokemonPromises = []
 function getPokemons(){
 
