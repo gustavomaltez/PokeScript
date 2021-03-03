@@ -3,9 +3,8 @@ This is a simple PokeDex made using just Javascript and [PokeAPI](https://pokeap
 
 ## 💻 Screenshots
 
-<h1 align="center">
-    <img src="/readme-imgs/2.png" width="164px"/>
-    <img src="/readme-imgs/1.png" width="400px"/>
+<h1 align="left">
+    <img src="/promo/gif.gif" width="50%"/>
 </h1>
 
 ## ▶ Try it now
