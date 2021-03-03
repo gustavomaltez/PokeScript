@@ -9,5 +9,5 @@ This is a simple PokeDex made using just Javascript and [PokeAPI](https://pokeap
 </h1>
 
 ## ▶ Try it now
-https://dnsgusttavo.github.io/PokeScript/
+https://gustavomaltez.github.io/PokeScript/
 
